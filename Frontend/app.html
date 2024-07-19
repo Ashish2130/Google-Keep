@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <div id="auth">
+      <h2>Register</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button id="registerBtn">Register</button>
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button id="loginBtn">Login</button>
+    </div>
+    <div id="notesApp" style="display:none;">
+      <button id="createNoteBtn">Create Note</button>
+      <div id="notes"></div>
+    </div>
+  </div>
+</body>
+</html>
